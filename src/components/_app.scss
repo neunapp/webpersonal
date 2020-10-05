@@ -1,0 +1,21 @@
+$color1: #212121;
+$color2: #ff9f1a;
+$color3: #18dcff;
+$color4: #c56cf0;
+$color5: #3ae374;
+$color-white: white;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Ubuntu:wght@300&display=swap');
+
+$ff-primary: 'Noto Serif', serif;
+
+$ff-secondary: 'Ubuntu', sans-serif;
+
+:export {
+  colorone: $color1;
+  colortwo: $color2;
+  colorthree: $color3;
+  colorfour: $color4;
+  colorfive: $color5;
+  colorwhite: $color-white;
+}
